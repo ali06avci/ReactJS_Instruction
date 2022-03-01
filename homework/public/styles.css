@@ -1,0 +1,59 @@
+.button{
+    color: red;
+    background-color: yellow;
+    border-radius: 1px;
+    border-style: outset;
+    border-width:4px;
+    border-color: rgb(145, 142, 142);
+    font-size: 1rem;
+}
+.favcity{
+    width: 40%;
+    border: 3px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 30%;
+    margin-top: 0%;
+}
+.listitems{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.header{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.food{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.image{
+    width: 175px;
+    height: 150px;
+    border-radius: 15%;
+}
+.Table {
+    width: 10%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  table {
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+  }
+  th {
+    border: 2px solid black;
+    border-style: solid;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  td {
+    border: 2px solid black;
+    border-style: solid;
+    text-align: left;
+    font-weight: bold;
+  }
