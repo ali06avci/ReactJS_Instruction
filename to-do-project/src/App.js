@@ -6,11 +6,7 @@ function App() {
     <div className="App">
       <header>
       <h1>Azra's ToDo List</h1>
-      
       </header>
-      
-
-      
     </div>
   );
 }
