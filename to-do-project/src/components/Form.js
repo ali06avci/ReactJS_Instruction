@@ -1,7 +1,6 @@
 import React from "react";
 import { FaPlusSquare } from "react-icons/fa";
 
-
 const Form = ({
   inputText,
   setInputText,
@@ -23,7 +22,7 @@ const Form = ({
     setInputText("");
   };
   const statusHandler = (e) => {
-    console.log(e.target.value);
+    setStatus(e.target.value);
   };
 
   return (
@@ -36,7 +35,7 @@ const Form = ({
       />
 
       <button onClick={submitTodoHandler} className="todo-button" type="submit">
-        <FaPlusSquare/>
+        <FaPlusSquare />
       </button>
 
       <div className="select">
